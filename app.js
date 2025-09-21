@@ -1,0 +1,175 @@
+var city;
+city = prompt("Enter your city: ")
+if (city == "Karachi") {
+    alert("Welcome to city of lights.")
+}
+else {
+    alert("Welcome to " + city)
+
+}
+
+var gender;
+gender = prompt("Enter your gender: ")
+if (gender == "Male") {
+    alert("Good Morning Sir")
+} else if (gender == "Female") {
+    alert("Good Morning Madam")
+}
+else {
+    alert("Wrong Input")
+}
+
+var signal;
+signal = prompt("Enter color of road signal")
+if (signal == "Red") {
+    alert("Must Stop")
+}
+else if (signal == "Red") {
+    alert("Ready to move")
+}
+else if (signal == "Red") {
+    alert("Move now")
+}
+else {
+    alert("Wrong Input")
+}
+
+var fuel;
+fuel = +prompt("Enter remaining fuel in your car: ")
+if (fuel < 0.25) {
+    alert("Please refill fuel in your car.")
+}
+else {
+    alert("No need to refill fuel right now.")
+}
+
+var a = 4;
+if (++a === 5) {
+    alert("given condition for variable a is true");
+}
+
+var b = 82;
+if (b++ === 83) {
+    alert("given condition for variable b is true");
+}
+
+var c = 12;
+if (c++ === 13) {
+    alert("condition 1 is true");
+}
+if (c === 13) {
+    alert("condition 2 is true");
+}
+if (++c < 14) {
+    alert("condition 3 is true");
+}
+if (c === 14) {
+    alert("condition 4 is true");
+}
+
+var materialCost = 20000;
+var laborCost = 2000;
+var totalCost = materialCost + laborCost;
+if (totalCost === laborCost + materialCost) {
+    alert("The cost equals");
+}
+
+if (true) {
+    alert("True");
+}
+if (false) {
+    alert("False");
+}
+
+if ("car" < "cat") {
+    alert("car is smaller than cat");
+}
+
+
+var m, e, p, total, obt, per;
+m = +prompt("Enter your marks in math")
+e = +prompt("Enter your marks in english")
+p = +prompt("Enter your marks in physics")
+obt = m + e + p;
+total = 300
+per = (obt / total) * 100;
+if (per >= 80 && per <= 100) {
+    alert("A1 grade \n Excellent")
+} else if (per >= 70 && per < 80) {
+    alert("A Grade \n Good")
+} else if (per >= 60 && per < 70) {
+    alert("B Grade \n Your need to improve")
+}
+else {
+    alert("Fail \n Sorry")
+}
+
+var num, secNum;
+num = +prompt("Guess the secret number from 1-10: ")
+secNum = 6
+if (num === secNum) {
+    alert("Bingo! Correct Answer")
+} else if (++num === secNum) {
+    alert("Close enough to the correct answer")
+} else {
+    alert("Wrong Input")
+}
+
+var n;
+n = +prompt("Enter the number: ")
+if (n % 3 == 0) {
+    alert("The number is divisible by 3")
+} else if (n % 3 != 0) {
+    alert("The number is not divisible by 3")
+} else {
+    alert("Wrong Input")
+}
+
+
+var num
+num = prompt("Enter Any Number: ");
+if (num % 2 == 0) {
+    alert("This is an even number")
+    alert("The number is ")
+}
+else {
+    alert("This is an odd number");
+    alert("The number is " + num);
+}
+
+
+var t;
+t = +prompt("Enter the temperature: ")
+if (t > 40) {
+    alert("It is too hot outside.")
+} else if (t > 30) {
+    alert("The weather today is normal")
+} else if (t > 20) {
+    alert("Today weather is cool")
+} else if (t > 10) {
+    alert("Today weather is too cool")
+}
+
+
+var n1, n2, op, result;
+n1 = +prompt("Enter first number: ")
+n2 = +prompt("Enter second number: ")
+op = prompt("Enter the operator")
+if (op == "+") {
+    result = n1 + n2
+    alert("Result is " + result)
+} else if (op == "-") {
+    result = n1 - n2
+    alert("Result is " + result)
+} else if (op == "*") {
+    result = n1 * n2
+    alert("Result is " + result)
+} else if (op == "/") {
+    result = n1 / n2
+    alert("Result is " + result)
+} else if (op == "%") {
+    result = n1 % n2
+    alert("Result is " + result)
+} else {
+    alert("Wrong Input")
+}
